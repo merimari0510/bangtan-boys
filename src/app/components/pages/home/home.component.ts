@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BtsService } from '../../../services/bts.service';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  newAlbums: any[] = [];
+  bts:any;
+  members: any[] = [];
+
+  constructor( private spotify:BtsService ) {
+    this.bts.getNewAlbums().subscribe( (data:any) => {
+      /* Obtengo la data, elimino el loading*/
+      console.log(data);
+      this.newAlbums = data;
+    });
+    this.bts.getBTS().subscribe( (data:any) => {
+      /* Obtengo la data, elimino el loading*/
+      console.log(data);
+      this.bts = data;
+    });
+    this.bts.getMembers().subscribe( (data:any) => {
+      /* Obtengo la data, elimino el loading*/
+      console.log(data);
+      this.newAlbums = data;
+    });
+  }
 
   ngOnInit() {
   }
