@@ -1,5 +1,5 @@
 .cnt_footer {
-  background: #3e4551;
+  background: #323741;
 }
 
 .cnt_footer a {
@@ -7,9 +7,9 @@
 }
 
 .cnt_footer a:hover {
-    color: #b698bf;
+    color: var(--light-lila);
 }
 
 .cnt_copyright {
-  background: #323741;
+  background: #222;
 }

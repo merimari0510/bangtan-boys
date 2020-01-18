@@ -2,3 +2,11 @@ body {
   font-family: 'Handlee';
   font-size: 1.2rem;
 }
+
+.cover {
+  background: url('assets/img/background.png')  black no-repeat center center scroll;
+}
+
+h1 {
+  font-family: 'Indie Flower';
+}
