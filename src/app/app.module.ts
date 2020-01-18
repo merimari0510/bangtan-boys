@@ -23,6 +23,8 @@ import { MemberComponent } from './components/pages/member/member.component';
 import { DiscographyComponent } from './components/pages/discography/discography.component';
 import { AlbumComponent } from './components/pages/album/album.component';
 import { GalleryComponent } from './components/pages/gallery/gallery.component';
+import { CardsHexagonalComponent } from './components/elements/cards-hexagonal/cards-hexagonal.component';
+import { CardsAlbumsComponent } from './components/elements/cards-albums/cards-albums.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { GalleryComponent } from './components/pages/gallery/gallery.component';
     MemberComponent,
     DiscographyComponent,
     AlbumComponent,
-    GalleryComponent
+    GalleryComponent,
+    CardsHexagonalComponent,
+    CardsAlbumsComponent
   ],
   imports: [
     BrowserModule,
