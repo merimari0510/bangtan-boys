@@ -14,12 +14,28 @@ import { ROUTES } from './app.routes';
 
 /* ######## COMPONENTS ####### */
 import { AppComponent } from './app.component';
-import { xxComponent } from './components/pages/xx/xx.component';
+import { NavbarComponent } from './components/pages/shared/navbar/navbar.component';
+import { FooterComponent } from './components/pages/shared/footer/footer.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { BtsComponent } from './components/pages/bts/bts.component';
+import { MembersComponent } from './components/pages/members/members.component';
+import { MemberComponent } from './components/pages/member/member.component';
+import { DiscographyComponent } from './components/pages/discography/discography.component';
+import { AlbumComponent } from './components/pages/album/album.component';
+import { GalleryComponent } from './components/pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    xxComponent
+    NavbarComponent,
+    FooterComponent,
+    HomeComponent,
+    BtsComponent,
+    MembersComponent,
+    MemberComponent,
+    DiscographyComponent,
+    AlbumComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
