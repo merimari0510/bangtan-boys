@@ -1,1 +1,45 @@
-{"new_albums":: [0, 1, 2, 3, 4, 5],"albums": [{"id": 1,"name_short": "map-of-the-soul-persona","title": "MAP OF THE SOUL : PERSONA","sub_title": "THE 6TH MINI ALBUM","card_img": "assets/img/albums/map-of-the-soul-persona.jpg","bg_img": "assets/img/albums/bg-map-of-the-soul-persona.jpg","short_description": ["BTS' MAP OF THE SOUL: PERSONA", "GLOBAL ICON BTS POURS OUT THEIR HEARTS TO FANS", "FINDING JOY IN LOVE AND REACHING OUT TO THE WORLD THROUGH THE LEAD SINGLE «Boy With Luv feat. Halsey»" ],"description": ["BTS signals the beginning of a brand new story with the release of their newest EP MAP OF THE SOUL : PERSONA on April 12.","As global superstars who play stadiums and are loved by countless fans across the world, BTS now looks to shape the future reflecting on and using the power they have gained while embracing all its shadows.","Opening the MAP OF THE SOUL series with PERSONA, BTS talks about the joy in finding love, and reaches out to the world with the messages they want to share with their fans. The band is especially curious about the stories of each and everyone who have helped them become who they are today.","There are a total of seven tracks in this album, through which BTS weaves together what they genuinely felt both within themselves and the ever-widening world around them. Through RM’s solo piece ‘Intro : Persona’, BTS asks the fundamental question: ‘Who am I?’. World-leading singer Halsey takes part as featured artist in the lead single ‘Boy With Luv feat. Halsey’ where BTS talks about how true strength and love come from finding joy in the little things in life and reaching out to the world.","The album includes ‘Mikrokosmos’ which paints the world around oneself through human interest and the collaboration with world-famous singer-songwriter Ed Sheeran, ‘Make It Right’. In ‘HOME’, BTS finds refuge from their hardships and loneliness where their fans are. ‘Jamais Vu’ is a unit song by j-hope, Jin, Jung Kook and ‘Dionysus’ is a signature BTS hip hop track blasting ad-libs and powerful beats from start to finish.",],"videos": [{ "title": "Comeback trailer", "url": "M9Uy0opVF3s" },{ "title": "MV Teaser 1", "url": "z-pvJ3xkaFA" },{ "title": "MV Teaser 2", "url": "r8c8FX7MKN4" },{ "title": "Boy With Luv feat. Halsey MV", "url": "XsX3ATc3FbA" },{ "title": "Boy With Luv feat. Halsey MV ('ARMY With Luv' ver.)", "url": "62E_xyj_oDA" },{ "title": "Make It Right (feat. Lauv)", "url": "eXBu09fwe3I" }],"photos": [{ "title": "Version 1", "url": "" },{ "title": "Version 2", "url": "" },{ "title": "Version 3", "url": "" },{ "title": "Version 4", "url": "" }],"songs": []},]}
+{
+  "new_albums":[0, 1, 2, 3, 4, 5], "albums": [{
+    "id": 1,
+    "name_short": "map-of-the-soul-persona",
+    "title": "MAP OF THE SOUL : PERSONA",
+    "sub_title": "THE 6TH MINI ALBUM",
+    "card_img": "assets/img/albums/map-of-the-soul-persona.jpg",
+    "bg_img": "assets/img/albums/bg-map-of-the-soul-persona.jpg",
+    "short_description": ["BTS' MAP OF THE SOUL: PERSONA", "GLOBAL ICON BTS POURS OUT THEIR HEARTS TO FANS", "FINDING JOY IN LOVE AND REACHING OUT TO THE WORLD THROUGH THE LEAD SINGLE «Boy With Luv feat. Halsey»"],
+    "description": ["BTS signals the beginning of a brand new story with the release of their newest EP MAP OF THE SOUL : PERSONA on April 12.", "As global superstars who play stadiums and are loved by countless fans across the world, BTS now looks to shape the future reflecting on and using the power they have gained while embracing all its shadows.", "Opening the MAP OF THE SOUL series with PERSONA, BTS talks about the joy in finding love, and reaches out to the world with the messages they want to share with their fans. The band is especially curious about the stories of each and everyone who have helped them become who they are today.", "There are a total of seven tracks in this album, through which BTS weaves together what they genuinely felt both within themselves and the ever-widening world around them. Through RM’s solo piece ‘Intro : Persona’, BTS asks the fundamental question: ‘Who am I?’. World-leading singer Halsey takes part as featured artist in the lead single ‘Boy With Luv feat. Halsey’ where BTS talks about how true strength and love come from finding joy in the little things in life and reaching out to the world.", "The album includes ‘Mikrokosmos’ which paints the world around oneself through human interest and the collaboration with world-famous singer-songwriter Ed Sheeran, ‘Make It Right’. In ‘HOME’, BTS finds refuge from their hardships and loneliness where their fans are. ‘Jamais Vu’ is a unit song by j-hope, Jin, Jung Kook and ‘Dionysus’ is a signature BTS hip hop track blasting ad-libs and powerful beats from start to finish.", ],
+    "videos": [{
+      "title": "Comeback trailer",
+      "url": "M9Uy0opVF3s"
+    }, {
+      "title": "MV Teaser 1",
+      "url": "z-pvJ3xkaFA"
+    }, {
+      "title": "MV Teaser 2",
+      "url": "r8c8FX7MKN4"
+    }, {
+      "title": "Boy With Luv feat. Halsey MV",
+      "url": "XsX3ATc3FbA"
+    }, {
+      "title": "Boy With Luv feat. Halsey MV ('ARMY With Luv' ver.)",
+      "url": "62E_xyj_oDA"
+    }, {
+      "title": "Make It Right (feat. Lauv)",
+      "url": "eXBu09fwe3I"
+    }],
+    "photos": [{
+      "title": "Version 1",
+      "url": ""
+    }, {
+      "title": "Version 2",
+      "url": ""
+    }, {
+      "title": "Version 3",
+      "url": ""
+    }, {
+      "title": "Version 4",
+      "url": ""
+    }],
+    "songs": []
+  }, ]
+}
