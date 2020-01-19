@@ -1,9 +1,5 @@
 {
-  bts: {
-    short_desc: [
-      "BTS (hangul: 방탄소년단, romanització: BangTan Sonyeondan), és un grup que prové de Corea del Sud i està format per la companyia Big Hit Entertainment. El grup està compost per 7 membres: RM (Kim NamJoon), Jin (Kim Seok-Jin), Suga (Min Yoon-Gi), J-Hope (Jung HoSeok), Jimin (Park Jimin), V (Kim TaeHyung) i JungKook (Jeon JungKook). Van debutar el 13 de juny del 2013 amb la cançó «No More Dream», el 4 de juny del 2014. El nom del seu club de fans és A.R.M.Y, acrònim de «Adorable Representative MC for Youth»: Representants adorables de MC per el jovent. Les sigles A.R.M.Y també signifiquen exèrcit en anglès, dient així, que les seves fans són qui els protegeixen de les coses dolentes, que sempre i sense dubte, lluiten per ells."
-    ]
-  },
+  bts: {short_desc: ["BTS (hangul: 방탄소년단, romanització: BangTan Sonyeondan), és un grup que prové de Corea del Sud i està format per la companyia Big Hit Entertainment. El grup està compost per 7 membres: RM (Kim NamJoon), Jin (Kim Seok-Jin), Suga (Min Yoon-Gi), J-Hope (Jung HoSeok), Jimin (Park Jimin), V (Kim TaeHyung) i JungKook (Jeon JungKook). Van debutar el 13 de juny del 2013 amb la cançó «No More Dream», el 4 de juny del 2014. El nom del seu club de fans és A.R.M.Y, acrònim de «Adorable Representative MC for Youth»: Representants adorables de MC per el jovent. Les sigles A.R.M.Y també signifiquen exèrcit en anglès, dient així, que les seves fans són qui els protegeixen de les coses dolentes, que sempre i sense dubte, lluiten per ells."]},
   members: [
     {
       id: 0,
