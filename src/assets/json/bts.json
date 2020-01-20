@@ -115,60 +115,43 @@
   }],
   "positions": [
     {
-    "id": 0,
     "name": "Singer"
   }, {
-    "id": 1,
     "name": "Bailarín"
   }, {
-    "id": 2,
     "name": "Rapero"
   }, {
-    "id": 3,
     "name": "Compositor"
   }, {
-    "id": 4,
     "name": "Productor"
   }, {
-    "id": 5,
     "name": "Modelo"
   }, {
-    "id": 6,
     "name": "MC"
   }, {
-    "id": 7,
     "name": "Actor"
   }, {
-    "id": 8,
     "name": "Coreógrafo"
   }, {
-    "id": 9,
     "name": "Productor"
   }],
   "genres": [
     {
-    "id": 0,
     "name": "K-Pop"
   }, {
-    "id": 1,
     "name": "R&B"
   }, {
-    "id": 2,
     "name": "Hip Hop"
   }],
   "instruments": [
     {
-    "id": 0,
     "name": "Voz"
   }, {
-    "id": 1,
     "name": "Guitarra"
   }],
   "discography": [{
-    "id": 0,
     "name": "Big Hit Entertainment"
   }, {
-    "id": 1,
     "name": "Pony Canyon"
   }]
 }
