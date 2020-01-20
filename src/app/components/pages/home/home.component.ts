@@ -9,7 +9,7 @@ import { BtsService } from '../../../services/bts.service';
 export class HomeComponent implements OnInit {
 
   newAlbums: any[] = [];
-  bts_info:any;
+  bts_info:any = {};
   members: any[] = [];
 
   constructor( private bts:BtsService ) {
@@ -19,9 +19,8 @@ export class HomeComponent implements OnInit {
       this.newAlbums = data;
     });
     this.bts.getBTS().subscribe( (data:any) => {
-      /* Obtengo la data, elimino el loading*/
       console.log(data);
-      this.bts = data;
+      this.bts_info = data;
     });
     this.bts.getMembers().subscribe( (data:any) => {
       /* Obtengo la data, elimino el loading*/

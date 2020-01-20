@@ -43,7 +43,6 @@ export class BtsService {
   }
 
   getBTS() {
-    console.log("BTS");
     return this.getQuery('bts').pipe( map( (data:any) => data.bts));
   }
 
