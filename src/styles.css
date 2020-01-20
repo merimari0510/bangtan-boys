@@ -18,3 +18,7 @@ h1 {
 .h-75vh {
   min-height: 75vh;
 }
+
+.bg-light-lila {
+  background: var(--extra-light-lila);
+}
