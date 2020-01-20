@@ -8,19 +8,22 @@ import { map } from 'rxjs/operators'; /* Filtrar lo que no queremos del data JSO
 })
 export class BtsService {
 
-  constructor( private http:HttpClient ) { }
+  constructor( private http:HttpClient ) {
+    console.log('BTS service app service work!')
+  }
 
   getQuery( query:string ) {
-    const url = `https://github.com/merimari0510/assets/json${ query }`;
+    const url = `https://merimari0510.github.io/bangtan-boys/src/assets/json/${ query }.json`;
 
-    return this.http.get(url);
+    const headers = new HttpHeaders();
+
+    return this.http.get(url, { headers });
   }
 
   getNewAlbums() {
     console.log("New Albums");
 
-    return this.getQuery('/new-albums')
-           .pipe( map( (data:any) => data.albums.items));
+    return this.getQuery('albums').pipe( map( (data:any) => data.new_albums));
   }
   getAlbums() {
     console.log("Albums");
@@ -32,6 +35,7 @@ export class BtsService {
 
   getMembers() {
     console.log("Members");
+    return this.getQuery('bts').pipe( map( (data:any) => data.members));
   }
 
   getMember(id:string) {
@@ -40,6 +44,7 @@ export class BtsService {
 
   getBTS() {
     console.log("BTS");
+    return this.getQuery('bts').pipe( map( (data:any) => data.bts));
   }
 
   getGallery() {

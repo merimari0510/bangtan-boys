@@ -9,10 +9,10 @@ import { BtsService } from '../../../services/bts.service';
 export class HomeComponent implements OnInit {
 
   newAlbums: any[] = [];
-  bts:any;
+  bts_info:any;
   members: any[] = [];
 
-  constructor( private spotify:BtsService ) {
+  constructor( private bts:BtsService ) {
     this.bts.getNewAlbums().subscribe( (data:any) => {
       /* Obtengo la data, elimino el loading*/
       console.log(data);
