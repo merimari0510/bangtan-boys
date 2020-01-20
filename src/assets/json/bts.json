@@ -99,7 +99,7 @@
     "year_entry_bts": 0
   }, {
     "id": 6,
-    "position": "suga",
+    "short_name": "suga",
     "name": "Suga",
     "position": [1, 2, 3, 4, 5],
     "birth_date": "",
