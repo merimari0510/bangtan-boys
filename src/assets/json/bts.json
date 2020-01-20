@@ -101,7 +101,7 @@
     "id": 6,
     "position": "suga",
     "name": "Suga",
-    "short_desc": [1, 2, 3, 4, 5],
+    "position": [1, 2, 3, 4, 5],
     "birth_date": "",
     "discographyies": [],
     "genres": [],
