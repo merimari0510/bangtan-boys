@@ -1,13 +1,14 @@
 <!-- ############# VIDEO  ############# -->
-<div class="d-flex w-100 flex-column header">
-  <div class="overlay"></div>
+<div class="d-flex w-100 flex-column header bg-dark w-100 h-75vh">
+  <div class="overlay h-100 w-100 bg-dark"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="assets/videos/bts_logo.mp4" type="video/mp4">
   </video>
+  <img class="w-100 h-100 object-cover" src="assets/img/bts_logo.jpg" alt="BTS logo Cover" />
 </div>
 
 <!-- ############# BTS  ############# -->
-<div class="d-flex w-100 p-3 mx-auto flex-column bg-light-lila">
+<div class="d-flex w-100 p-3 mx-auto flex-column bg-light-lila h-75vh">
   <div class="container m-auto p-3">
     <h1 class="display-4 text-center mb-5 text-dark-blue">BTS</h1>
     <p class="text-justify" *ngFor="let parrafo of bts_info.short_desc">{{ parrafo }}</p>
@@ -15,12 +16,12 @@
 </div>
 
 <!-- ############# MEMBERS  ############# -->
-<div class="d-flex w-100 p-3 mx-auto flex-column cover">
-  <h1 class="display-4 text-center mb-5 text-dark-blue">Members</h1>
+<div class="d-flex w-100 p-3 mx-auto flex-column cover h-75vh">
+  <h1 class="display-4 text-center mt-3 mb-4 text-dark-blue">Members</h1>
   <div class='grid'>
     <div class='grid--item' *ngFor="let member of members">
       <div class='img'>
-        <img src='assets/img/members/{{ member.short_name }}/home_card.jpg' alt='{{ member.short_name }} Cover' />
+        <img class="w-100 h-100 object-cover" src='assets/img/members/{{ member.short_name }}/home_card.jpg' alt='{{ member.short_name }} Cover' />
       </div>
       <div class='container text-center text-white w-100'>
         <h2>{{ member.name }}</h2>
@@ -81,7 +82,7 @@
 </div>
 
 <!-- ############# DISCOGRAFIA  ############# -->
-<div class="d-flex w-100 p-3 mx-auto flex-column bg-light-lila">
+<div class="d-flex w-100 p-3 mx-auto flex-column bg-light-lila h-75vh">
   <div class="container m-auto p-3">
     <h1 class="display-4 text-center mb-5 text-dark-blue">Albums</h1>
     <div class="card-columns m-3 animated fadeIn">
@@ -107,6 +108,6 @@
   </div>
 </div>
 
-<div class="d-flex w-100 h-100">
-  <img class="w-100" src="assets/img/bts/hover_cover.jpg" alt="BTS Cover" />
+<div class="d-flex w-100 h-100 h-75vh">
+  <img class="w-100 object-cover" src="assets/img/bts/hover_cover.jpg" alt="BTS Cover" />
 </div>

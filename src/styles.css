@@ -10,3 +10,11 @@ body {
 h1 {
   font-family: 'Indie Flower';
 }
+
+.object-cover {
+  object-fit: cover;
+}
+
+.h-75vh {
+  min-height: 75vh;
+}

@@ -8,12 +8,10 @@
 
 /* ############# HEADER  ############# */
 .header {
-  background-color: var(--black);
   height: 75vh;
   min-height: 25rem;
   overflow: hidden;
   position: relative;
-  width: 100%;
 }
 
 .header video {
@@ -32,22 +30,27 @@
 }
 
 .header .overlay {
-  background-color: var(--black);
-  height: 100%;
   left: 0;
   opacity: 0.2;
   position: absolute;
   top: 0;
-  width: 100%;
   z-index: 1;
+}
+
+.header img {
+  display: none;
 }
 
 @media (pointer: coarse) and (hover: none) {
   .header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    min-height: auto;
   }
+  
   .header video {
     display: none;
+  }
+  .header img {
+    display: flex;
   }
 }
 
@@ -110,12 +113,6 @@
 }
 .img:after {
   background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5), transparent);
-}
-
-.img > img {
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
 }
 
 .grid .container {
