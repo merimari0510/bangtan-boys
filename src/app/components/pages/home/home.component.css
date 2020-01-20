@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Arapey:400italic);
-
 .bg-light-lila {
   background: var(--extra-light-lila);
 }
@@ -114,14 +112,17 @@
   background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5), transparent);
 }
 
+.img > img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
 .grid .container {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100%;
   opacity: 0;
-  text-align: center;
-  color: white;
   will-change: transform;
   backface-visibility: hidden;
   transform: translate(-50%, -50%) scale(0.9);

@@ -46,6 +46,10 @@ export class BtsService {
     return this.getQuery('bts').pipe( map( (data:any) => data.bts));
   }
 
+  getPositions() {
+    return this.getQuery('bts').pipe( map( (data:any) => data.positions));
+  }
+
   getGallery() {
     console.log("Gallery");
   }

@@ -10,7 +10,7 @@
 <div class="d-flex w-100 p-3 mx-auto flex-column bg-light-lila">
   <div class="container m-auto p-3">
     <h1 class="display-4 text-center mb-5 text-dark-blue">BTS</h1>
-    <p class="text-justify" *ngFor="let parrafo of bts_info.short_desc"></p>
+    <p class="text-justify" *ngFor="let parrafo of bts_info.short_desc">{{ parrafo }}</p>
   </div>
 </div>
 
@@ -18,7 +18,16 @@
 <div class="d-flex w-100 p-3 mx-auto flex-column cover">
   <h1 class="display-4 text-center mb-5 text-dark-blue">Members</h1>
   <div class='grid'>
-    <div class='grid--item'>
+    <div class='grid--item' *ngFor="let member of members">
+      <div class='img'>
+        <img src='assets/img/members/{{ member.short_name }}/home_card.jpg' alt='{{ member.short_name }} Cover' />
+      </div>
+      <div class='container text-center text-white w-100'>
+        <h2>{{ member.name }}</h2>
+        <div class='desc'><span *ngFor="let position of member.position, let i = index"><span *ngIf="i!=0">, </span>{{ showPosition(position) }}</span></div>
+      </div>
+    </div>
+    <!--<div class='grid--item'>
       <div class='img' style='background-image: url(../../../../assets/img/members/jungkook/home_card.jpg'></div>
       <div class='container'>
         <h2>Jungkook</h2>
@@ -66,7 +75,7 @@
         <h2>Jhope</h2>
         <div class='desc'>Bailarín, coreógrafo, rapero, cantante, MC, compositor, modelo y productor</div>
       </div>
-    </div>
+    </div>-->
     <div style="clear: both"></div>
   </div>
 </div>
