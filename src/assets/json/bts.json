@@ -1,7 +1,9 @@
-{ "bts": {
+{
+  "bts": {
     "short_desc": ["BTS (hangul: 방탄소년단, romanització: BangTan Sonyeondan), és un grup que prové de Corea del Sud i està format per la companyia Big Hit Entertainment. El grup està compost per 7 membres: RM (Kim NamJoon), Jin (Kim Seok-Jin), Suga (Min Yoon-Gi), J-Hope (Jung HoSeok), Jimin (Park Jimin), V (Kim TaeHyung) i JungKook (Jeon JungKook). Van debutar el 13 de juny del 2013 amb la cançó «No More Dream», el 4 de juny del 2014. El nom del seu club de fans és A.R.M.Y, acrònim de «Adorable Representative MC for Youth»: Representants adorables de MC per el jovent. Les sigles A.R.M.Y també signifiquen exèrcit en anglès, dient així, que les seves fans són qui els protegeixen de les coses dolentes, que sempre i sense dubte, lluiten per ells."]
   },
-  "members": [{
+  "members": [
+    {
     "id": 0,
     "short_name": "jungkook",
     "name": "Jungkook",
@@ -107,58 +109,62 @@
     "type_voice": "",
     "year_entry_bts": 0
   }],
-  positions: [{
+  "positions": [
+    {
     "id": 0,
-    "name": "Singer'
+    "name": "Singer"
   }, {
     "id": 1,
-    "name": "Bailarín'
+    "name": "Bailarín"
   }, {
     "id": 2,
-    "name": "Rapero'
+    "name": "Rapero"
   }, {
     "id": 3,
-    "name": "Compositor'
+    "name": "Compositor"
   }, {
     "id": 4,
-    "name": "Productor'
+    "name": "Productor"
   }, {
     "id": 5,
-    "name": "Modelo'
+    "name": "Modelo"
   }, {
     "id": 6,
-    "name": "MC'
+    "name": "MC"
   }, {
     "id": 7,
-    "name": "Actor'
+    "name": "Actor"
   }, {
     "id": 8,
-    "name": "Coreógrafo'
+    "name": "Coreógrafo"
   }, {
     "id": 9,
-    "name": "Productor'
+    "name": "Productor"
   }],
-  "genres": [{
+  "genres": [
+    {
     "id": 0,
-    "name": "K-Pop'
+    "name": "K-Pop"
   }, {
     "id": 1,
-    "name": "R&B'
+    "name": "R&B"
   }, {
     "id": 2,
-    "name": "Hip Hop'
+    "name": "Hip Hop"
   }],
-  "instruments": [{
+  "instruments": [
+    {
     "id": 0,
-    "name": "Voz'
+    "name": "Voz"
   }, {
     "id": 1,
-    "name": "Guitarra'
-  }], discography: [{
+    "name": "Guitarra"
+  }],
+  "discography": [{
     "id": 0,
-    "name": "Big Hit Entertainment'
+    "name": "Big Hit Entertainment"
   }, {
     "id": 1,
-    "name": "Pony Canyon'
+    "name": "Pony Canyon"
   }]
 }
