@@ -31,6 +31,8 @@ export class BtsService {
 
   getAlbum(id:string) {
     console.log("Album" + id);
+
+    return this.getQuery('albums/' + id).pipe( map( (data:any) => data));;
   }
 
   getMembers() {
