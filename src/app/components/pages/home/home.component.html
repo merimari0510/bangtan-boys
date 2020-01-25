@@ -1,6 +1,6 @@
 <!-- ############# VIDEO  ############# -->
-<div class="d-flex w-100 flex-column header bg-dark w-100 h-75vh">
-  <div class="overlay h-100 w-100 bg-dark"></div>
+<div class="d-flex flex-column w-100 h-75vh header bg-dark">
+  <div class="h-100 w-100 bg-dark overlay"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="assets/videos/bts_logo.mp4" type="video/mp4">
   </video>
@@ -8,88 +8,49 @@
 </div>
 
 <!-- ############# BTS  ############# -->
-<div class="d-flex w-100 p-3 mx-auto flex-column bg-light-lila h-75vh">
+<div class="d-flex flex-column w-100 h-75vh p-3 mx-auto bg-light-lila">
   <div class="container m-auto p-3">
-    <h1 class="display-4 text-center mb-5 text-dark-blue">BTS</h1>
+    <h1 class="display-4 mb-5 text-center">BTS</h1>
     <p class="text-justify" *ngFor="let parrafo of bts_info.short_desc">{{ parrafo }}</p>
   </div>
 </div>
 
 <!-- ############# MEMBERS  ############# -->
-<div class="d-flex w-100 p-3 mx-auto flex-column cover h-75vh">
-  <h1 class="display-4 text-center mt-3 mb-4 text-dark-blue">Members</h1>
+<div class="d-flex flex-column w-100 h-75vh p-3 mx-auto cover">
+  <h1 class="display-4 mt-3 mb-4 text-center">Members</h1>
   <div class='grid'>
     <div class='grid--item' *ngFor="let member of members">
       <div class='img'>
         <img class="w-100 h-100 object-cover" src='assets/img/members/{{ member.short_name }}/home_card.jpg' alt='{{ member.short_name }} Cover' />
       </div>
-      <div class='container text-center text-white w-100'>
+      <div class='container w-100 text-center text-white'>
         <h2>{{ member.name }}</h2>
         <div class='desc'><span *ngFor="let position of member.position, let i = index"><span *ngIf="i!=0">, </span>{{ showPosition(position) }}</span></div>
       </div>
     </div>
-    <!--<div class='grid--item'>
-      <div class='img' style='background-image: url(../../../../assets/img/members/jungkook/home_card.jpg'></div>
-      <div class='container'>
-        <h2>Jungkook</h2>
-        <div class='desc'>Cantante, bailarín, rapero, compositor, productor y modelo</div>
-      </div>
-    </div>
-    <div class='grid--item'>
-      <div class='img' style='background-image: url(../../../../assets/img/members/v/home_card.jpg'></div>
-      <div class='container'>
-        <h2>V</h2>
-        <div class='desc'>Cantante, modelo, actor, bailarín y compositor</div>
-      </div>
-    </div>
-    <div class='grid--item'>
-      <div class='img' style='background-image: url(../../../../assets/img/members/jimin/home_card.jpg'></div>
-      <div class='container'>
-        <h2>Jimin</h2>
-        <div class='desc'>Cantante y bailarín</div>
-      </div>
-    </div>
-    <div class='grid--item'>
-      <div class='img' style='background-image: url(../../../../assets/img/members/jin/home_card.jpg'></div>
-      <div class='container'>
-        <h2>Jin</h2>
-        <div class='desc'>Cantante, modelo, compositor y bailarín</div>
-      </div>
-    </div>
-    <div class='grid--item'>
-      <div class='img'  style='background-image: url(../../../../assets/img/members/suga/home_card.jpg'></div>
-      <div class='container'>
-        <h2>Suga</h2>
-        <div class='desc'>Rapero, compositor, productor, modelo y bailarín</div>
-      </div>
-    </div>
-    <div class='grid--item'>
-      <div class='img' style='background-image: url(../../../../assets/img/members/rm/home_card.jpg'></div>
-      <div class='container'>
-        <h2>RM</h2>
-        <div class='desc'>Rapero, bailarín, compositor, productor y modelo</div>
-      </div>
-    </div>
-    <div class='grid--item'>
-      <div class='img' style='background-image: url(../../../../assets/img/members/jhope/home_card.jpg'></div>
-      <div class='container'>
-        <h2>Jhope</h2>
-        <div class='desc'>Bailarín, coreógrafo, rapero, cantante, MC, compositor, modelo y productor</div>
-      </div>
-    </div>-->
     <div style="clear: both"></div>
   </div>
 </div>
 
 <!-- ############# DISCOGRAFIA  ############# -->
-<div class="d-flex w-100 p-3 mx-auto flex-column bg-light-lila h-75vh">
+<div class="d-flex flex-column w-100 h-75vh p-3 mx-auto bg-light-lila">
   <div class="container m-auto p-3">
-    <h1 class="display-4 text-center mb-5 text-dark-blue">Albums</h1>
-    <div class="card-columns m-3 animated fadeIn">
-      <div class="card">
-        <img src="assets/img/albums/map-of-the-soul-7.jpg" class="card-img-top" alt="MAP OF THE SOUL : 7 Black Swan Cover">
+    <h1 class="display-4 mt-3 mb-4 text-center">Albums</h1>
+    <div class="row m-3 animated fadeIn">
+      <div class="col-md-4" *ngFor="let album of getNewAlbums(newAlbums)">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img [src]="album.card_img" class="card-img-top" alt="{{ album.title }} Cover">
+            </div>
+            <div class="card-back">
+              <h3>{{ album.title }}</h3>
+              <p>{{ album.sub_title }}</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card">
+      <!-- <div class="card">
         <img src="assets/img/albums/map-of-the-soul-persona.jpg" class="card-img-top" alt="MAP OF THE SOUL: PERSONA Album Cover">
       </div>
       <div class="card">
@@ -103,7 +64,7 @@
       </div>
       <div class="card">
         <img src="assets/img/albums/you-never-walk-alone.jpg" class="card-img-top" alt="YOU NEVER WALK ALONE Album Cover">
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
