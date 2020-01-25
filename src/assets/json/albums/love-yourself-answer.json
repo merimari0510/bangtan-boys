@@ -1,0 +1,54 @@
+{
+  "name_short": "love-yourself-answer",
+  "title": "LOVE YOURSELF 結 'ANSWER'",
+  "sub_title": "REPACKAGE ALBUM",
+  "card_img": "assets/img/albums/love-yourself-answer/home-card.jpg",
+  "bg_img": "assets/img/albums/love-yourself-answer/background.jpg",
+  "short_description": [
+    "BTS, LOVE YOURSELF 結 ‘ANSWER’",
+    "«Loving oneself is where true love begins»",
+    "A celebration with the ARMY"
+  ],
+  "description": [
+    "First unveiled in March of 2016, the BTS LOVE YOURSELF series creates a narrative by linking the key songs in each album into a single theme, imparting the message that «loving yourself is true love». Like a well-written novel having introduction, development, twists, and conclusion it shared a compelling story for two and a half years.",
+    "«ANSWER» is the final piece of the puzzle. Though it's a repackaged album, LOVE YOURSELF 結 'ANSWER' still includes seven brand-new tracks. CD A is a concept album, its sixteen tracks all connected lyrically to highlight BTS’ prowess as both artists and storytellers."
+  ],
+  "videos": [
+    {
+      "title": "EPIPHANY. Comeback trailer",
+      "url": "fIkZOLsnoqY"
+    },
+    {
+      "title": "MV Teaser",
+      "url": "Rd0UqlRf1eE"
+    },
+    {
+      "title": "IDOL MV",
+      "url": "pBuZEGYXA6E"
+    },
+    {
+      "title": "IDOL (feat. Nicki Minaj) MV",
+      "url": "K1scjjbfNsk"
+    }
+  ],
+  "photos": [
+    {
+      "title": "Concept S",
+      "url": "assets/img/albums/love-yourself-answer/photo01-01.jpg"
+    },
+    {
+      "title": "Concept E",
+      "url": "assets/img/albums/love-yourself-answer/photo02-01.jpg"
+    },
+    {
+      "title": "Concept L",
+      "url": "assets/img/albums/love-yourself-answer/photo03-01.jpg"
+    },
+    {
+      "title": "Concept F",
+      "url": "assets/img/albums/love-yourself-answer/photo04-01.jpg"
+    }
+  ],
+  "songs": ["euphoria", "trivia-just-dance", "serendipity-full",
+    "dna", "dimple", "trivia-love", "her", "singularity", "fake-love", "the-truth-untold-feat-steve-aoki", "trivia-seesaw", "tear", "epiphany", "im-fine", "idol", "answer-love-myself", "magic-shop", "best-of-me", "airplanet-pt2", "go-go", "anpanman", "mic-drop", "dna-mix", "fake-love-rocking-mix", "mic-drop-steve-aoki-remix-full"]
+}

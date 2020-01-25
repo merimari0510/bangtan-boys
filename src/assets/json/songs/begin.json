@@ -1,0 +1,10 @@
+{
+  "name": "Begin",
+  "duration": 231,
+  "videos": [
+    { "title": "MV", "url": "" },
+    { "title": "Dance MV", "url": "" },
+    { "title": "Stage Mix", "url": "" },
+    { "title": "Dance Practice", "url": "" }
+  ]
+}

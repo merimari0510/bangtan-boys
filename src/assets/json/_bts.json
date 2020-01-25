@@ -1,0 +1,66 @@
+{
+  bts: {
+
+  },
+  members: {
+    [
+      {
+        id: 1,
+        birdth_date:	"1/9/1997",
+        discographyies:	[0, 1],
+        genres: [0, 1, 2],
+        instruments: [0, 1],
+        name_real: "Jeon Jung-kook (전정국)",
+        nacionality: "Nacionalidad	Surcoreana",
+        origin:	"Bandera de Corea del Sur Mandeok-Dong, Busan, Corea del Sur",
+        other_names:	['JK', 'Jungkookie', 'Kookie', 'Golden Maknae', 'Nochu'],
+        position: [0, 1, 2, 3, 4, 5],
+        short_name: 'junkook',
+        type_voice: 'Tenor',
+        year_entry_bts : 2013
+      },
+      {
+
+      },
+      {
+
+      },
+      {
+
+      },
+      {
+
+      },
+      {
+
+      },
+    ]
+  },
+  posicions: [
+    { id: 0, name: 'Cantante' },
+    { id: 1, name: 'Bailarín' },
+    { id: 2, name: 'Rapero' },
+    { id: 3, name: 'Compositor' },
+    { id: 4, name: 'Modelo' },
+    { id: 5, name: 'Productor' }
+  ],
+  genres: [
+    { id:0, name: 'K-Pop' },
+    { id:1, name: 'R&B' },
+    { id:2, name: 'Hip Hop' }
+  ],
+  instruments: [
+    { id:0, name: 'Voz' },
+    { id:1, name: 'Guitarra' }
+  ]
+  discography: [
+    { id:0, name: 'Big Hit Entertainment' },
+    { id:1, name: 'Pony Canyon' }
+  ]
+}
+
+
+
+
+
+Jeon Jung-kook (hangul: 전정국, hanja: 田柾國?; Mandeok-Dong, Busan, 1 de septiembre de 1997), conocido como Jungkook, es un cantante, bailarín, rapero, compositor, productor y modelo surcoreano. Desde 2013, es miembro, vocalista principal y maknae de la banda BTS, en la agencia de Big Hit Entertainment, donde forma parte de la dance line, junto a J-Hope y Jimin.1​ A diferencia de otros miembros de la banda como RM, Suga o J-Hope, Jungkook no tiene una participación tan grande en las canciones de BTS, aun así tiene 5 canciones acreditadas a su nombre por la Korea Music Copyright Association (KOMCA).

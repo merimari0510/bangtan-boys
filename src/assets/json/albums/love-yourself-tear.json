@@ -1,0 +1,57 @@
+{
+  "name_short": "love-yourself-tear",
+  "title": "LOVE YOURSELF 轉 'TEAR'",
+  "sub_title": "3RD FULL-LENGTH ALBUM",
+  "card_img": "assets/img/albums/love-yourself-tear/home-card.jpg",
+  "bg_img": "assets/img/albums/love-yourself-tear/background.jpg",
+  "short_description": [
+    "BTS releases third studio album LOVE YOURSELF 轉 «TEAR»",
+    "Fake love inevitably leads to loss and separation,",
+    "For true love can only begin when you learn to love yourself"
+  ],
+  "description": [
+    "BTS will release LOVE YOURSELF 轉 ‘TEAR’, their third studio album on May 18.",
+    "BTS’ LOVE YOURSELF series bears the message that loving oneself is the beginning of true love. Whereas the previously unveiled LOVE YOURSELF 起 ‘WONDER’ and LOVE YOURSELF 承 ‘HER’ albums expressed the heart-fluttering and tingling moments of love, LOVE YOUR  SELF 轉 ‘TEAR’ album embodies the pain of boys faced with parting."
+  ],
+  "videos": [
+    {
+      "title": "SINGULARITY. Comeback trailer",
+      "url": "p8npDG2ulKQ"
+    },
+    {
+      "title": "MV Teaser 1",
+      "url": "BP71K87Hp5Y"
+    },
+    {
+      "title": "MV Teaser 2",
+      "url": "2tDKp41nrw8"
+    },
+    {
+      "title": "Fake Love MV",
+      "url": "7C2z4GqqS5E"
+    },
+    {
+      "title": "Fake Love MV (Extended ver.)",
+      "url": "D_6QmL6rExk"
+    }
+  ],
+  "photos": [
+    {
+      "title": "Concept Y",
+      "url": "assets/img/albums/love-yourself-tear/photo01-01.jpg"
+    },
+    {
+      "title": "Concept O",
+      "url": "assets/img/albums/love-yourself-tear/photo02-01.jpg"
+    },
+    {
+      "title": "Concept U",
+      "url": "assets/img/albums/love-yourself-tear/photo03-01.jpg"
+    },
+    {
+      "title": "Concept R",
+      "url": "assets/img/albums/love-yourself-tear/photo04-01.jpg"
+    }
+  ],
+  "songs": ["singularity", "fake-love", "the-truth-untold-feat-steve-aoki", "134340", "paradise", "love-maze", "magic-shop", "airplane-pt2", "anpanman", "so-what", "tear"]
+}

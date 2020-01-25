@@ -1,0 +1,72 @@
+{
+  "name_short": "you-never-walk-alone",
+  "title": "YOU NEVER WALK ALONE",
+  "sub_title": "2ND SPECIAL ALBUM",
+  "card_img": "assets/img/albums/you-never-walk-alone/home-card.jpg",
+  "bg_img": "assets/img/albums/you-never-walk-alone/background.jpg",
+  "short_description": [
+    "BTS releases YOU NEVER WALK ALONE!",
+    "The epilogue brings closure to WINGS.",
+    "«We can laugh if we are together», a message of comfort and hope to the youth of this generation."
+  ],
+  "description": [
+    "YOU NEVER WALK ALONE completes the stories of youth and growth that could not all be contained in the WINGS album. Whereas The most beautiful moment in life series and WINGS were narratives of youth and growth, this additional chapter to WINGS is a message of warm consolation and hope for the suffering youth of this generation."
+  ],
+  "videos": [
+    {
+      "title": "«Spring Day» MV Teaser",
+      "url": "fUZlQGxsnJY"
+    },
+    {
+      "title": "«Not Today» MV Teaser",
+      "url": "w-9GwVG83nQ"
+    },
+    {
+      "title": "«Spring Day» MV",
+      "url": "xEeFrLSkMm8"
+    },
+    {
+      "title": "«Not Today» MV",
+      "url": "9DwzBICPhdM"
+    }
+  ],
+  "photos": [
+    { "title": "BTS", "url": "assets/img/albums/you-never-walk-alone/bts.jpg" },
+    { "title": "Jungkook", "url": "assets/img/albums/you-never-walk-alone/jungkook.jpg" },
+    { "title": "V", "url": "assets/img/albums/you-never-walk-alone/v.jpg" },
+    { "title": "Jimin", "url": "assets/img/albums/you-never-walk-alone/jimin.jpg" },
+    { "title": "Jin", "url": "assets/img/albums/you-never-walk-alone/jin.jpg" },
+    { "title": "Suga", "url": "assets/img/albums/you-never-walk-alone/suga.jpg" },
+    { "title": "J-Hope", "url": "assets/img/albums/you-never-walk-alone/jhope.jpg" },
+    { "title": "RM", "url": "assets/img/albums/you-never-walk-alone/rm.jpg" },
+    { "title": "Jimin - Jungkook - Suga", "url": "assets/img/albums/you-never-walk-alone/jimin-jungkook-suga.jpg" },
+    { "title": "Jin - J-Hope", "url": "assets/img/albums/you-never-walk-alone/jin-jhope.jpg" },
+    { "title": "RM - V", "url": "assets/img/albums/you-never-walk-alone/rm-v.jpg" },
+    { "title": "Jimin", "url": "assets/img/albums/you-never-walk-alone/jimin2.jpg" },
+    { "title": "J-Hope", "url": "assets/img/albums/you-never-walk-alone/jhope2.jpg" },
+    { "title": "Jin", "url": "assets/img/albums/you-never-walk-alone/jin2.jpg" },
+    { "title": "Jungkook", "url": "assets/img/albums/you-never-walk-alone/jungkook2.jpg" },
+    { "title": "V", "url": "assets/img/albums/you-never-walk-alone/v2.jpg" },
+    { "title": "Suga", "url": "assets/img/albums/you-never-walk-alone/suga2.jpg" },
+    { "title": "RM", "url": "assets/img/albums/you-never-walk-alone/rm2.jpg" },
+    { "title": "BTS", "url": "assets/img/albums/you-never-walk-alone/bts2.jpg" },
+    { "title": "Suga", "url": "assets/img/albums/you-never-walk-alone/suga3.jpg" },
+    { "title": "Jin", "url": "assets/img/albums/you-never-walk-alone/jin3.jpg" },
+    { "title": "Jungkook", "url": "assets/img/albums/you-never-walk-alone/jungkook3.jpg" },
+    { "title": "V", "url": "assets/img/albums/you-never-walk-alone/v3.jpg" },
+    { "title": "Jimin", "url": "assets/img/albums/you-never-walk-alone/jimin3.jpg" },
+    { "title": "J-Hope", "url": "assets/img/albums/you-never-walk-alone/jhope3.jpg" },
+    { "title": "RM", "url": "assets/img/albums/you-never-walk-alone/rm3.jpg" },
+    { "title": "Jungkook - Suga - V - RM", "url": "assets/img/albums/you-never-walk-alone/jungkook-suga-v-rm.jpg" },
+    { "title": "Jin - J-Hope - Jimin", "url": "assets/img/albums/you-never-walk-alone/jin-jhope-jimin.jpg" },
+    { "title": "BTS", "url": "assets/img/albums/you-never-walk-alone/bts3.jpg" },
+    { "title": "Jungkook", "url": "assets/img/albums/you-never-walk-alone/jungkook4.jpg" },
+    { "title": "V", "url": "assets/img/albums/you-never-walk-alone/v4.jpg" },
+    { "title": "Jin", "url": "assets/img/albums/you-never-walk-alone/jin4.jpg" },
+    { "title": "Jimin", "url": "assets/img/albums/you-never-walk-alone/jimin4.jpg" },
+    { "title": "Suga", "url": "assets/img/albums/you-never-walk-alone/suga4.jpg" },
+    { "title": "J-Hope", "url": "assets/img/albums/you-never-walk-alone/jhope4.jpg" },
+    { "title": "RM", "url": "assets/img/albums/you-never-walk-alone/rm4.jpg" }
+  ],
+  "songs": ["boy-meets-evil", "blood-sweat-and-tears", "begin", "lie", "stigma", "first-love", "reflection", "mama", "awake", "lost", "cypher-4", "am-i-wrong", "21st-century-girl", "2-3", "spring-day", "not-today", "wings", "you-never-walk-alone"]
+}

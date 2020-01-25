@@ -1,0 +1,61 @@
+{
+  "name_short": "love-yourself-her",
+  "title": "LOVE YOURSELF承 'HER'",
+  "sub_title": "THE 5TH MINI ALBUM",
+  "card_img": "assets/img/albums/love-yourself-her/home-card.jpg",
+  "bg_img": "assets/img/albums/love-yourself-her/background.jpg",
+  "short_description": [
+    "BTS releases LOVE YOURSELF 承 'HER'!",
+    "«Loving yourself is the beginning of true love»,",
+    "All the different faces of love expressed through the signature music of BTS!"
+  ],
+  "description": [
+    "On September 18, BTS will release 承 'HER', the first album in the new LOVE YOURSELF series.",
+    "LOVE YOURSELF 承 'HER' is an expression of the anxiety and elation of love, told in the unique style of BTS. The “love” that BTS aims to convey in the LOVE YOURSELF series is both the individual experience of a boy growing into adulthood and a message of peace and unity to our society today. In the mini album 承 'HER' that begins this new narrative, the image of boys in love for the first time are expressed in a refreshing and cheerful take that aims to talk about the topic of “love” while immersed in a coming-of-age tale."
+  ],
+  "videos": [
+    {
+      "title": "«Serendipity» Comeback trailer",
+      "url": "BEMaH9Sm3lQ"
+    },
+    {
+      "title": "«DNA» MV Teaser 1",
+      "url": "FSOxXsYVJMQ"
+    },
+    {
+      "title": "«DNA» MV Teaser 2",
+      "url": "g_wuoInNyAI"
+    },
+    {
+      "title": "«DNA» MV",
+      "url": "MBdVXkSdhwU"
+    },
+    {
+      "title": "«MIC DROP (REMIX)» MV TEASER",
+      "url": "ixxR3ZoqnF0"
+    },
+    {
+      "title": "«MIC DROP (REMIX)» MV",
+      "url": "kTlv5_Bs8aw"
+    }
+  ],
+  "photos": [
+    {
+      "title": "Concept Photo L",
+      "url": "assets/img/albums/love-yourself-her/photo01-01.jpg"
+    },
+    {
+      "title": "Version 2",
+      "url": "assets/img/albums/love-yourself-her/photo02-01.jpg"
+    },
+    {
+      "title": "Version 3",
+      "url": "assets/img/albums/love-yourself-her/photo03-01.jpg"
+    },
+    {
+      "title": "Version 4",
+      "url": "assets/img/albums/love-yourself-her/photo04-01.jpg"
+    }
+  ],
+  "songs": ["serendipity", "dna", "best-of-me", "dimple", "pied-piper", "skit-billboard-music-awars-speech", "mic-drop", "go-go", "her"]
+}
