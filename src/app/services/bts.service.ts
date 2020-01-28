@@ -21,10 +21,9 @@ export class BtsService {
   }
 
   getNewAlbums() {
-    console.log("New Albums");
-
     return this.getQuery('albums').pipe( map( (data:any) => data.new_albums));
   }
+
   getAlbums() {
     console.log("Albums");
   }
@@ -46,6 +45,10 @@ export class BtsService {
 
   getBTS() {
     return this.getQuery('bts').pipe( map( (data:any) => data.bts));
+  }
+
+  getImagesBTS() {
+    return this.getQuery('bts').pipe( map( (data:any) => data.bts.images));
   }
 
   getPositions() {
